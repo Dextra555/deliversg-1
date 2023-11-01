@@ -1,0 +1,416 @@
+[
+    {
+        "unique_id": 4,
+        "template_unique_id": 2,
+        "email_unique_title": "USER_FORGOT_PASSWORD",
+        "email_title": "Reset Password",
+        "email_content": "Password is successfully reset to XXXXXX. Please don t forget to change the password once you log in next time.",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 14,
+        "template_unique_id": 2,
+        "email_unique_title": "PROVIDER_FORGOT_PASSWORD",
+        "email_title": "Reset Password",
+        "email_content": "Password is successfully reset to XXXXXX. Please don t forget to change the password once you log in next time.",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 24,
+        "template_unique_id": 2,
+        "email_unique_title": "STORE_FORGOT_PASSWORD",
+        "email_title": "Reset Password",
+        "email_content": "Password is successfully reset to XXXXXX. Please don t forget to change the password once you log in next time.",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 3,
+        "template_unique_id": 2,
+        "email_unique_title": "USER_OTP_VERIFICATION",
+        "email_title": "Your OTP Verification",
+        "email_content": "Email Verification code for complete your registration process is : XXXXXX.",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": true
+    },
+    {
+        "unique_id": 13,
+        "template_unique_id": 2,
+        "email_unique_title": "PROVIDER_OTP_VERIFICATION",
+        "email_title": "Your OTP Verification",
+        "email_content": "Email Verification code for complete your registration process is : XXXXXX.",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": true
+    },
+    {
+        "unique_id": 23,
+        "template_unique_id": 2,
+        "email_unique_title": "STORE_OTP_VERIFICATION",
+        "email_title": "Your OTP Verification",
+        "email_content": "Email Verification code for complete your registration process is : XXXXXX.",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": true
+    },
+    {
+        "unique_id": 1,
+        "template_unique_id": 1,
+        "email_unique_title": "USER_REGISTER",
+        "email_title": "Welcome to Deliver.sg",
+        "email_content": "Hi XXXXXX! Welcome to Deliver.sg! Thanks so much for joining us.HOW TO MAKE ORDER?",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 11,
+        "template_unique_id": 1,
+        "email_unique_title": "PROVIDER_REGISTER",
+        "email_title": "Welcome to Deliver.sg, Deliveryman Team!",
+        "email_content": "Hi XXXXXX! Welcome to Deliver.sg. Thanks so much for joining us.Admin will approve you after checking your documents.Contact Admin if you have any query.",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 21,
+        "template_unique_id": 1,
+        "email_unique_title": "STORE_REGISTER",
+        "email_title": "Welcome to Deliver.sg, Store Team!",
+        "email_content": "Hi XXXXXX!Welcome to Deliver.sg Store. Thanks so much for joining as ANY Delivery.Admin will review your details and approve you.",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 2,
+        "template_unique_id": 2,
+        "email_unique_title": "USER_APPROVED",
+        "email_title": "Approve from Deliver.sg Admin",
+        "email_content": " Hi XXXXXX! You are approve from admin, you can create new order from your app.",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 12,
+        "template_unique_id": 2,
+        "email_unique_title": "PROVIDER_APPROVED",
+        "email_title": "Approve from Deliver.sg Admin",
+        "email_content": "Hi XXXXXX! You are approve from admin, you can start your job.For accept new order login your delivery app.How Delivery App work.",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 22,
+        "template_unique_id": 2,
+        "email_unique_title": "STORE_APPROVED",
+        "email_title": "Approve from Deliver.sg Admin",
+        "email_content": "Hi XXXXXX! You are approve from admin, For start business login here.How to Received Order from Users.",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 6,
+        "template_unique_id": 4,
+        "email_unique_title": "USER_DECLINED",
+        "email_title": "Decline from Deliver.sg Admin",
+        "email_content": "Hi XXXXXX! You decline from admin, Please contact admin.",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 16,
+        "template_unique_id": 4,
+        "email_unique_title": "PROVIDER_DECLINED",
+        "email_title": "Decline from Deliver.sg Admin",
+        "email_content": "Hi XXXXXX! You decline from admin, you will not recieved delivery untill admin will approved you.Please contact admin.",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 26,
+        "template_unique_id": 4,
+        "email_unique_title": "STORE_DECLINED",
+        "email_title": "Decline from Deliver.sg Admin",
+        "email_content": "Hi XXXXXX! You decline from admin, you will not recieved orders untill admin will approved you.Please contact admin.",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 40,
+        "template_unique_id": 5,
+        "email_unique_title": "ORDER_PAYMENT_DONE",
+        "email_title": "Order Payment Paid",
+        "email_content": "Order Payment Paid Amount: XXXXXX",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 41,
+        "template_unique_id": 5,
+        "email_unique_title": "ORDER_BOOKED",
+        "email_title": "Your Order Booked",
+        "email_content": " Please reach out to us for further details",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 42,
+        "template_unique_id": 5,
+        "email_unique_title": "ORDER_READY",
+        "email_title": "Your Order Ready",
+        "email_content": " Please reach out to us for further details",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 43,
+        "template_unique_id": 5,
+        "email_unique_title": "ORDER_DISPATCH",
+        "email_title": "Your Order Dispatch",
+        "email_content": " Please reach out to us for further details",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 44,
+        "template_unique_id": 5,
+        "email_unique_title": "ORDER_DIGITAL_CODE",
+        "email_title": "Your Order Digital Code",
+        "email_content": "Order Digital Code: XXXXXX",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 47,
+        "template_unique_id": 5,
+        "email_unique_title": "USER_ORDER_CANCELLED",
+        "email_title": "Your Order Cancelled",
+        "email_content": " Please reach out to us for further details",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 45,
+        "template_unique_id": 5,
+        "email_unique_title": "USER_ORDER_COMPLETED",
+        "email_title": "Your Order Completed",
+        "email_content": " Please reach out to us for further details",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 53,
+        "template_unique_id": 5,
+        "email_unique_title": "PROVIDER_ORDER_CANCELLED",
+        "email_title": "Your Order Cancelled",
+        "email_content": " Please reach out to us for further details",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 51,
+        "template_unique_id": 5,
+        "email_unique_title": "ORDER_REMAINING",
+        "email_title": "Order Remaining",
+        "email_content": " Please reach out to us for further details",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 58,
+        "template_unique_id": 5,
+        "email_unique_title": "STORE_ORDER_COMPLETED",
+        "email_title": "Your Order Completed",
+        "email_content": " Please reach out to us for further details",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 52,
+        "template_unique_id": 5,
+        "email_unique_title": "ORDER_DELIVERED",
+        "email_title": "Order Delivered",
+        "email_content": " Please reach out to us for further details",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 55,
+        "template_unique_id": 5,
+        "email_unique_title": "NEW_ORDER",
+        "email_title": "New Order",
+        "email_content": " Please reach out to us for further details",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 56,
+        "template_unique_id": 5,
+        "email_unique_title": "STORE_ORDER_READY",
+        "email_title": "Order Ready",
+        "email_content": " Please reach out to us for further details",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 57,
+        "template_unique_id": 5,
+        "email_unique_title": "ORDER_ASSIGN",
+        "email_title": "Order Assign",
+        "email_content": " Please reach out to us for further details",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 59,
+        "template_unique_id": 5,
+        "email_unique_title": "STORE_ORDER_CANCELLED",
+        "email_title": "Your Order Cancelled",
+        "email_content": " Please reach out to us for further details",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 74,
+        "template_unique_id": 9,
+        "email_unique_title": "USER_PAYMENT_REFUND",
+        "email_title": "Order Payment Refund",
+        "email_content": "Your Order Payment Refund Amount: XXXXXX",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 76,
+        "template_unique_id": 9,
+        "email_unique_title": "STORE_PAYMENT_REFUND",
+        "email_title": "Order Payment Refund",
+        "email_content": "You Order Payment Refund Amount: XXXXXX",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 48,
+        "template_unique_id": 5,
+        "email_unique_title": "DELIVERY_MAN_ON_THE_WAY",
+        "email_title": "Deliveryman On The Way",
+        "email_content": " Please reach out to us for further details",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 64,
+        "template_unique_id": 5,
+        "email_unique_title": "DELIVERY_MAN_STARTED_DELIVERY_FROM_STORE",
+        "email_title": "Deliveryman Started Delivery From Store.",
+        "email_content": " Please reach out to us for further details",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 65,
+        "template_unique_id": 5,
+        "email_unique_title": "DELIVERY_MAN_REACHED_AT_DESTINATION",
+        "email_title": "Deliveryman Reached At Destination",
+        "email_content": " Please reach out to us for further details",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 49,
+        "template_unique_id": 5,
+        "email_unique_title": "DELIVERY_MAN_ARRIVED_AT_DESTINATION",
+        "email_title": "Deliveryman Arrived At Destination",
+        "email_content": " Please reach out to us for further details",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 60,
+        "template_unique_id": 5,
+        "email_unique_title": "DELIVERY_MAN_ACCEPTED",
+        "email_title": "Deliveryman Accepted your Order",
+        "email_content": " Please reach out to us for further details",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 61,
+        "template_unique_id": 5,
+        "email_unique_title": "DELIVERY_MAN_COMING",
+        "email_title": "Deliveryman Coming",
+        "email_content": " Please reach out to us for further details",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 62,
+        "template_unique_id": 5,
+        "email_unique_title": "DELIVERY_MAN_ARRIVED",
+        "email_title": "Deliveryman Arrived At Your Location",
+        "email_content": " Please reach out to us for further details",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 50,
+        "template_unique_id": 5,
+        "email_unique_title": "USER_ORDER_REJECTED",
+        "email_title": "Your Order Rejected",
+        "email_content": " Please reach out to us for further details",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 81,
+        "template_unique_id": 5,
+        "email_unique_title": "USER_ORDER_PREPARE",
+        "email_title": "Your Order Prepare",
+        "email_content": " Please reach out to us for further details",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": false
+    },
+    {
+        "unique_id": 100,
+        "template_unique_id": 5,
+        "email_unique_title": "DOCUMENT_EXPIRED",
+        "email_title": "Your Document Expired",
+        "email_content": " Please reach out to us for further details",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": true
+    },
+    {
+        "unique_id": 77,
+        "template_unique_id": 5,
+        "email_unique_title": "STORE_ORDER_PAYMENT_DONE",
+        "email_title": "Your Order Payment Paid",
+        "email_content": "Order Payment Paid Amount: XXXXXX",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": true
+    },
+    {
+        "unique_id": 101,
+        "template_unique_id": 5,
+        "email_unique_title": "SUB_STORE_REGISTERED",
+        "email_title": "Sub Store Has Been Registered",
+        "email_content": "Sub Store Has Been Registered With Email Address: XXXXXX",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": true
+    },
+    {
+        "unique_id": 102,
+        "template_unique_id": 5,
+        "email_unique_title": "SUB_ADMIN_REGISTERED",
+        "email_title": "Sub Admin Has Been Registered",
+        "email_content": "Sub Admin Has Been Registered With Email Address: XXXXXX",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": true
+    },
+    {
+        "unique_id": 103,
+        "template_unique_id": 5,
+        "email_unique_title": "DOCUMENT_EXPIRED",
+        "email_title": "Document Has Been Expired",
+        "email_content": "Your Document XXXXXX Has Been Expired",
+        "email_admin_info": "For any query or consolation hello@deliver.sg",
+        "is_send": true
+    }
+]

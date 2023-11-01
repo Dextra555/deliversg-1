@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="x-apple-disable-message-reformatting">
+	<title><%= title %></title>
+	<!--[if mso]>
+	<noscript>
+		<xml>
+			<o:OfficeDocumentSettings>
+				<o:PixelsPerInch>96</o:PixelsPerInch>
+			</o:OfficeDocumentSettings>
+		</xml>
+	</noscript>
+	<![endif]-->
+</head>
+<body style="margin:0;padding:0;">
+    <div leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0"
+    style="height:auto !important;width:100% !important; font-family: Helvetica,Arial,sans-serif !important; margin-bottom: 40px;">
+    
+    <div style="display: flex; justify-content: center;">
+      <table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0"
+        style="max-width:600px; background-color:#ffffff;border:1px solid #e4e2e2;border-collapse:separate !important; border-radius:10px;border-spacing:0;color:#242128; margin:0;padding:40px;"
+        heigth="auto">
+        <tbody>
+          <tr>
+            <td align="left" valign="center" colspan="2"
+              style="padding-bottom:40px;border-top:0;height:100% !important;width:100% !important;">
+              <img src="<%= logo_image_url %>" />
+            </td>
+          </tr>
+          <tr>
+            <td colSpan="2" style="padding-top:10px;border-top:1px solid #e4e2e2">
+              <h3 style="color:#303030; font-size:18px; line-height: 1.6; font-weight:500;"><%= title %></h3>
+              <p style="color:#8f8f8f; font-size: 14px; padding-bottom: 20px; line-height: 1.4;">
+                <%= email_content %>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td colSpan="2">
+              <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                style="min-width:100%;border-collapse:collapse;">
+                <tbody>
+                  <tr>
+                    <td style="padding:15px 0px;" valign="top" align="center">
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse:separate !important;">
+                        <tbody>
+                          <tr>
+                            <td align="center" valign="middle" style="padding:13px; padding-bottom: 0px;">
+                              <img src="<%= logo_image_url %>" width="100px"/>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="center" valign="middle" style="padding:13px; padding-bottom: 0px;">
+                              <p style="font-size: 12px; text-decoration: none;line-height: 1; color:#909090; margin-top:0px; margin-bottom:5px; ">
+                                <%= template_string %>
+                              </p>
+                              <p style="font-size: 12px; text-decoration: none;line-height: 1; color:#909090; margin-top:0px; margin-bottom:5px; ">
+                                <%=  email_admin_info %>
+                              </p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- <div style="display: flex; justify-content: center;">
+        <table style="margin-top:30px; padding-bottom:20px;; margin-bottom: 40px;">
+          <tbody>
+            <tr>
+              <td align="center" valign="center">
+                <p
+                  style="font-size: 12px; text-decoration: none;line-height: 1; color:#909090; margin-top:0px; margin-bottom:5px; ">
+                  ColoredStrategies Inc, 35 Little Russell St. Bloomsburg London,UK
+                </p>
+                <p style="font-size: 12px; line-height:1; color:#909090;  margin-top:5px; margin-bottom:5px;">
+                  <a href="#" style="color: #00365a; text-decoration:none;">Privacy Policy</a> | <a href="#"
+                    style="color: #00365a; text-decoration:none;">Unscubscribe</a>
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+    </div> -->
+
+    </div>
+</body>
+</html>

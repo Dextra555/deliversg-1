@@ -1,0 +1,242 @@
+[
+    {
+        "unique_id": 1,
+        "sms_unique_title": "USER_OTP",
+        "sms_content": "Dear User, OTP to complete your registration process is : XXXXXX",
+        "is_send": true
+    },
+    {
+        "unique_id": 2,
+        "sms_unique_title": "USER_FORGOT_PASSWORD",
+        "sms_content": "Password is successfully reset to : XXXXXX",
+        "is_send": false
+    },
+    {
+        "unique_id": 3,
+        "sms_unique_title": "USER_ORDER_BOOKED",
+        "sms_content": "Your Order Booked.",
+        "is_send": false
+    },
+    {
+        "unique_id": 4,
+        "sms_unique_title": "USER_ORDER_READY",
+        "sms_content": "Your Order Ready.",
+        "is_send": false
+    },
+    {
+        "unique_id": 5,
+        "sms_unique_title": "USER_ORDER_DISPATCH",
+        "sms_content": "Your Order Dispatch.",
+        "is_send": false
+    },
+    {
+        "unique_id": 6,
+        "sms_unique_title": "USER_ORDER_CANCELLED",
+        "sms_content": "Your Order Cancelled.",
+        "is_send": false
+    },
+    {
+        "unique_id": 7,
+        "sms_unique_title": "USER_ORDER_DIGITAL_CODE",
+        "sms_content": "Order Digital Code: XXXXXX",
+        "is_send": false
+    },
+    {
+        "unique_id": 8,
+        "sms_unique_title": "USER_DECLINE",
+        "sms_content": "Declined as a User.",
+        "is_send": false
+    },
+    {
+        "unique_id": 9,
+        "sms_unique_title": "USER_APPROVED",
+        "sms_content": "Approved as a User.",
+        "is_send": false
+    },
+    {
+        "unique_id": 10,
+        "sms_unique_title": "USER_EMERGENCY_HELP",
+        "sms_content": "%USERNAME% Need to help here.",
+        "is_send": false
+    },
+    {
+        "unique_id": 11,
+        "sms_unique_title": "USER_PAYMENT_REMAINING",
+        "sms_content": "Payment Pending Amount: XXXXXX",
+        "is_send": false
+    },
+    {
+        "unique_id": 21,
+        "sms_unique_title": "PROVIDER_OTP",
+        "sms_content": "Dear Provider, OTP to complete your registration process is : XXXXXX",
+        "is_send": true
+    },
+    {
+        "unique_id": 22,
+        "sms_unique_title": "PROVIDER_FORGOT_PASSWORD",
+        "sms_content": "Password is successfully reset to : XXXXXX",
+        "is_send": false
+    },
+    {
+        "unique_id": 23,
+        "sms_unique_title": "PROVIDER_APPROVED",
+        "sms_content": "Approved as a Provider.",
+        "is_send": false
+    },
+    {
+        "unique_id": 24,
+        "sms_unique_title": "PROVIDER_DECLINE",
+        "sms_content": "Declined as a Provider.",
+        "is_send": false
+    },
+    {
+        "unique_id": 25,
+        "sms_unique_title": "PROVIDER_ORDER_CANCELLED",
+        "sms_content": "Your Order Cancelled.",
+        "is_send": false
+    },
+    {
+        "unique_id": 26,
+        "sms_unique_title": "PROVIDER_ORDER_REMAINING",
+        "sms_content": "Your Order Remaining.",
+        "is_send": false
+    },
+    {
+        "unique_id": 27,
+        "sms_unique_title": "PROVIDER_EMERGENCY_HELP",
+        "sms_content": "%PROVIDERNAME% Need to help here.",
+        "is_send": false
+    },
+    {
+        "unique_id": 41,
+        "sms_unique_title": "STORE_OTP",
+        "sms_content": "Dear Store, OTP to complete your registration process is : XXXXXX",
+        "is_send": true
+    },
+    {
+        "unique_id": 42,
+        "sms_unique_title": "STORE_FORGOT_PASSWORD",
+        "sms_content": "Password is successfully reset to : XXXXXX",
+        "is_send": false
+    },
+    {
+        "unique_id": 43,
+        "sms_unique_title": "STORE_APPROVED",
+        "sms_content": "Approved as a Store.",
+        "is_send": false
+    },
+    {
+        "unique_id": 44,
+        "sms_unique_title": "STORE_DECLINE",
+        "sms_content": "Declined as a Store.",
+        "is_send": false
+    },
+    {
+        "unique_id": 45,
+        "sms_unique_title": "STORE_ORDER_COMPLETED",
+        "sms_content": "Your Order Completed.",
+        "is_send": false
+    },
+    {
+        "unique_id": 46,
+        "sms_unique_title": "STORE_ORDER_CANCELLED",
+        "sms_content": "Your Order Cancelled.",
+        "is_send": false
+    },
+    {
+        "unique_id": 48,
+        "sms_unique_title": "STORE_PAYMENT_REMAINING",
+        "sms_content": "Payment Pending Amount: XXXXXX",
+        "is_send": false
+    },
+    {
+        "unique_id": 47,
+        "sms_unique_title": "STORE_ORDER_REMAINING",
+        "sms_content": "Your Order Remaining.",
+        "is_send": false
+    },
+    {
+        "unique_id": 12,
+        "sms_unique_title": "USER_PAYMENT_REFUND",
+        "sms_content": "Your Order Payment Refund Amount: XXXXXX",
+        "is_send": false
+    },
+    {
+        "unique_id": 49,
+        "sms_unique_title": "STORE_PAYMENT_REFUND",
+        "sms_content": "You Order Payment Refund Amount: XXXXXX",
+        "is_send": false
+    },
+    {
+        "unique_id": 54,
+        "sms_unique_title": "DELIVERY_MAN_STARTED_DELIVERY",
+        "sms_content": "Deliveryman Started Delivery.",
+        "is_send": false
+    },
+    {
+        "unique_id": 55,
+        "sms_unique_title": "DELIVERY_MAN_REACHED_AT_DESTINATION",
+        "sms_content": "Deliveryman Reached At destination.",
+        "is_send": false
+    },
+    {
+        "unique_id": 13,
+        "sms_unique_title": "DELIVERY_MAN_ON_THE_WAY",
+        "sms_content": "Deliveryman On The Way.",
+        "is_send": false
+    },
+    {
+        "unique_id": 14,
+        "sms_unique_title": "DELIVERY_MAN_ARRIVED_AT_DESTINATION",
+        "sms_content": "Deliveryman Arrived At Destination.",
+        "is_send": false
+    },
+    {
+        "unique_id": 51,
+        "sms_unique_title": "DELIVERY_MAN_ACCEPTED",
+        "sms_content": "Deliveryman Accepted Your Order.",
+        "is_send": false
+    },
+    {
+        "unique_id": 52,
+        "sms_unique_title": "DELIVERY_MAN_COMING",
+        "sms_content": "Deliveryman Coming To your Location.",
+        "is_send": false
+    },
+    {
+        "unique_id": 53,
+        "sms_unique_title": "DELIVERY_MAN_ARRIVED",
+        "sms_content": "Deliveryman Arrived at your Location.",
+        "is_send": false
+    },
+    {
+        "unique_id": 50,
+        "sms_unique_title": "NEW_ORDER",
+        "sms_content": "You have New Order.",
+        "is_send": false
+    },
+    {
+        "unique_id": 15,
+        "sms_unique_title": "USER_ORDER_PREPARE",
+        "sms_content": "Your Order Prepare.",
+        "is_send": false
+    },
+    {
+        "unique_id": 16,
+        "sms_unique_title": "USER_ORDER_REJECTED",
+        "sms_content": "Your Order Rejected.",
+        "is_send": false
+    },
+    {
+        "unique_id": 29,
+        "sms_unique_title": "PROVIDER_NEW_ORDER",
+        "sms_content": "You have New Order.",
+        "is_send": false
+    },
+    {
+        "unique_id": 28,
+        "sms_unique_title": "ORDER_ASSIGN",
+        "sms_content": "You have New Order.",
+        "is_send": false
+    }
+]

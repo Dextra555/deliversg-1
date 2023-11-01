@@ -1,0 +1,8 @@
+{
+    "unique_id": 1,
+    "name": "Twilio",
+    "description": "twilio",
+    "sms_auth_id": "AC637efa2bd29a427ba403be1d86cbbfc3",
+    "sms_auth_token": "1b4d693d7d71d77d5e22fdb730fcaa2a",
+    "sms_number": "+19804002027"
+}

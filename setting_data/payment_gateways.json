@@ -1,0 +1,14 @@
+{
+    "unique_id": 1,
+    "name": "Stripe",
+    "description": "Stripe",
+    "payment_key_id": "pk_test_IUvvGvH07OcYt8mNu6rbCo1F",
+    "payment_key": "sk_test_cwDsE5y2790ZcAVpJqRCsSRy",
+    "payment_key1": "",
+    "payment_key2": "",
+    "payment_key3": "",
+    "is_payment_visible": true,
+    "is_payment_by_login": false,
+    "is_payment_by_web_url": false,
+    "is_using_card_details": true
+}

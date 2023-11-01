@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="x-apple-disable-message-reformatting">
+	<title><%= title %></title>
+	<!--[if mso]>
+	<noscript>
+		<xml>
+			<o:OfficeDocumentSettings>
+				<o:PixelsPerInch>96</o:PixelsPerInch>
+			</o:OfficeDocumentSettings>
+		</xml>
+	</noscript>
+	<![endif]-->
+</head>
+<body style="margin:0;padding:0;">
+
+    <div leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0"
+      style="height:auto !important;width:100% !important; font-family: Helvetica,Arial,sans-serif !important;">
+
+      <div class="justify-content-center d-flex" style="display: flex; justify-content: center;">
+        <table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0"
+          style="max-width:600px; min-width:360px; background-color:#ffffff;border:1px solid #e4e2e2;border-collapse:separate !important; border-radius:10px;border-spacing:0;color:#242128; margin:0;padding:40px;"
+          heigth="auto">
+          <tbody>
+            <tr class="">
+                <td align="left" valign="center"
+                  style="padding-bottom:35px; padding-top:15px; border-top:0;width:100% !important;">
+                  <img src="<%= main_icon %>" />
+                </td>
+                <td align="right" valign="center" style="padding-bottom:20px;border-top:0;width:100% !important;">
+                  <!-- <span style="color: #8f8f8f; font-weight: normal; line-height: 2; font-size: 14px;">02.02.2019</span> -->
+                </td>
+            </tr>
+            <tr>
+              <td colspan="2" style="padding-top:0px; border-top:1px solid #f1f0f0">
+                <table style="width: 100%; padding-top: 10px;">
+                  <tbody>
+                    <tr>
+                      <th colspan="2" style="text-align:left; padding-bottom: 15px; padding-top:0px; padding-bottom:20px;">
+                        <h3 style="color:#303030; font-size:18px; line-height: 1.6; font-weight:500; margin-bottom: 0px;">Statement Number <%= statement_number %></h3>
+                        <p style=" font-size: 14px; padding-bottom: 0px; line-height: 1.3; margin-bottom:0; font-weight: normal;">📅 <%= start_date %> - <%= end_date %></p>
+                      </th>
+                    </tr>
+                  </tbody>
+                </table>
+                <table border="0">
+                  <tr>
+                    <td colSpan="2" style="padding-bottom:0px;">
+                      <h3 style="color:#303030; font-size:18px; line-height: 1.6; font-weight:500; margin-bottom: 0px;">Provider Details</h3>
+                      <div style="display: flex; flex-direction: column; padding-bottom: 0px;">
+                        <div style="width: 100%; display: flex; flex-direction: row;">
+                          <p style="width: 25%; color:#8f8f8f; font-size: 14px; padding-bottom: 0px; line-height: 1.3; margin-bottom:0; text-transform: capitalize;">Id:</p>
+                          <p style="width: 75%; font-size: 14px; padding-bottom: 0px; line-height: 1.3; margin-bottom:0;">#<%= provider_unique_id %></p>
+                        </div>
+                        <div style="width: 100%; display: flex; flex-direction: row;">
+                          <p style="width: 25%; color:#8f8f8f; font-size: 14px; padding-bottom: 0px; line-height: 1.3; margin-bottom:0; text-transform: capitalize;">Name:</p>
+                          <p style="width: 75%; font-size: 14px; padding-bottom: 0px; line-height: 1.3; margin-bottom:0;"><%= provider_name %></p>
+                        </div>
+                        <div style="width: 100%; display: flex; flex-direction: row;">
+                          <p style="width: 25%; color:#8f8f8f; font-size: 14px; padding-bottom: 0px; line-height: 1.3; margin-bottom:0; text-transform: capitalize;">Email:</p>
+                          <p style="width: 75%; font-size: 14px; padding-bottom: 0px; line-height: 1.3; margin-bottom:0;"><%= provider_email %></p>
+                        </div>
+                        <div style="width: 100%; display: flex; flex-direction: row;">
+                          <p style="width: 25%; color:#8f8f8f; font-size: 14px; padding-bottom: 0px; line-height: 1.3; margin-bottom:0; text-transform: capitalize;">Phone:</p>
+                          <p style="width: 75%; font-size: 14px; padding-bottom: 0px; line-height: 1.3; margin-bottom:0;"><%= provider_phone %></p>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+                <table style="width: 100%; margin-top:40px;">
+                  <thead>
+                    <tr>
+                      <th
+                        style="text-align:left; font-size: 10px; color:#8f8f8f; padding-bottom: 15px; padding-top:10px; padding-bottom:10px; text-transform: uppercase;">
+                        Provider Transaction
+                      </th>
+                      <th
+                        style="text-align:right; font-size: 10px; color:#8f8f8f; padding-bottom: 15px; padding-top:10px; padding-bottom:10px; text-transform: uppercase;">
+                        &nbsp;
+                      </th>
+                    </tr>
+                    <tr>
+                      <td colspan="2" style="border-top:1px solid #f1f0f0; line-height: 0;">&nbsp;</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td style="padding-top:0px; padding-bottom:5px; padding-top:10px; padding-bottom:10px;">
+                        <p
+                          style="font-size: 13px; line-height: 1; margin-bottom:0; color:#303030; font-weight:500; margin-top: 10px;">
+                          Order Price</p>
+                      </td>
+                      <td
+                        style="padding-top:0px; padding-bottom:0; text-align: right; padding-top:10px; padding-bottom:10px;">
+                        <p
+                          style="font-size: 13px; line-height: 1; color:#303030; margin-bottom:0; margin-top:0; vertical-align:top; white-space:nowrap;">
+                          <%= total_order_price %></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="padding-top:0px; padding-bottom:5px; padding-top:10px; padding-bottom:10px;">
+                        <p
+                          style="font-size: 13px; line-height: 1; margin-bottom:0; color:#303030; font-weight:500; margin-top: 10px;">
+                          Provider Profit</p>
+                      </td>
+                      </td>
+                      <td
+                        style="padding-top:0px; padding-bottom:0; text-align: right; padding-top:10px; padding-bottom:10px;">
+                        <p
+                          style="font-size: 13px; line-height: 1; color:#303030; margin-bottom:0; margin-top:0; vertical-align:top; white-space:nowrap;">
+                          <%= total_provider_profit %></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="padding-top:0px; padding-bottom:5px; padding-top:10px; padding-bottom:10px;">
+                        <p
+                          style="font-size: 13px; line-height: 1; margin-bottom:0; color:#303030; font-weight:500; margin-top: 10px;">
+                          Provider Earning</p>
+                      </td>
+                      <td
+                        style="padding-top:0px; padding-bottom:0; text-align: right; padding-top:10px; padding-bottom:10px;">
+                        <p
+                          style="font-size: 13px; line-height: 1; color:#303030; margin-bottom:0; margin-top:0; vertical-align:top; white-space:nowrap;">
+                          <%= total_provider_earning %></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="padding-top:0px; padding-bottom:5px; padding-top:10px; padding-bottom:10px;">
+                        <p
+                          style="font-size: 13px; line-height: 1; margin-bottom:0; color:#303030; font-weight:500; margin-top: 10px;">
+                          Wallet Income</p>
+                      </td>
+                      <td
+                        style="padding-top:0px; padding-bottom:0; text-align: right; padding-top:10px; padding-bottom:10px;">
+                        <p
+                          style="font-size: 13px; line-height: 1; color:#303030; margin-bottom:0; margin-top:0; vertical-align:top; white-space:nowrap;">
+                          <%= total_wallet_income_set %></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="padding-top:0px; padding-bottom:5px; padding-top:10px; padding-bottom:10px;">
+                        <p
+                          style="font-size: 13px; line-height: 1; margin-bottom:0; color:#303030; font-weight:500; margin-top: 10px;">
+                          Pay To Provider</p>
+                      </td>
+                      <td
+                        style="padding-top:0px; padding-bottom:0; text-align: right; padding-top:10px; padding-bottom:10px;">
+                        <p
+                          style="font-size: 13px; line-height: 1; color:#303030; margin-bottom:0; margin-top:0; vertical-align:top; white-space:nowrap;">
+                          <%= total_pay_to_provider %></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="padding-top:0px; padding-bottom:5px; padding-top:10px; padding-bottom:10px;">
+                        <p
+                          style="font-size: 13px; line-height: 1; margin-bottom:0; color:#303030; font-weight:500; margin-top: 10px;">
+                          Paid Order Amount</p>
+                      </td>
+                      <td
+                        style="padding-top:0px; padding-bottom:0; text-align: right; padding-top:10px; padding-bottom:10px;">
+                        <p
+                          style="font-size: 13px; line-height: 1; color:#303030; margin-bottom:0; margin-top:0; vertical-align:top; white-space:nowrap;">
+                          <%= total_provider_paid_order_payment %></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="padding-top:0px; padding-bottom:5px; padding-top:10px; padding-bottom:10px;">
+                        <p
+                          style="font-size: 13px; line-height: 1; margin-bottom:0; color:#303030; font-weight:500; margin-top: 10px;">
+                          Cash Amount</p>
+                      </td>
+                      <td
+                        style="padding-top:0px; padding-bottom:0; text-align: right; padding-top:10px; padding-bottom:10px;">
+                        <p
+                          style="font-size: 13px; line-height: 1; color:#303030; margin-bottom:0; margin-top:0; vertical-align:top; white-space:nowrap;">
+                          <%= total_provider_have_cash_payment %></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="padding-top:0px; padding-bottom:5px; padding-top:10px; padding-bottom:10px;">
+                        <p
+                          style="font-size: 13px; line-height: 1; margin-bottom:0; color:#303030; font-weight:500; margin-top: 10px;">
+                          Cash On Hand</p>
+                      </td>
+                      <td
+                        style="padding-top:0px; padding-bottom:0; text-align: right; padding-top:10px; padding-bottom:10px;">
+                        <p
+                          style="font-size: 13px; line-height: 1; color:#303030; margin-bottom:0; margin-top:0; vertical-align:top; white-space:nowrap;">
+                          <%= total_provider_have_cash_payment_on_hand %></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="padding-top:0px; padding-bottom:5px; padding-top:10px; padding-bottom:10px;">
+                        <p
+                          style="font-size: 13px; line-height: 1; margin-bottom:0; color:#303030; font-weight:500; margin-top: 10px;">
+                          Added in Wallet</p>
+                      </td>
+                      <td
+                        style="padding-top:0px; padding-bottom:0; text-align: right; padding-top:10px; padding-bottom:10px;">
+                        <p
+                          style="font-size: 13px; line-height: 1; color:#303030; margin-bottom:0; margin-top:0; vertical-align:top; white-space:nowrap;">
+                          <%= total_wallet_income_set_in_other_order %></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="padding-top:0px; padding-bottom:5px; padding-top:10px; padding-bottom:10px;">
+                        <p
+                          style="font-size: 13px; line-height: 1; margin-bottom:0; color:#303030; font-weight:500; margin-top: 10px;">
+                          Deduct from Wallet</p>
+                      </td>
+                      <td
+                        style="padding-top:0px; padding-bottom:0; text-align: right; padding-top:10px; padding-bottom:10px;">
+                        <p
+                          style="font-size: 13px; line-height: 1; color:#303030; margin-bottom:0; margin-top:0; vertical-align:top; white-space:nowrap;">
+                          <%= total_wallet_income_set_in_cash_order %></p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+
+      <div class="" style="display: flex; justify-content: center;">
+        <table style="margin-top:30px; padding-bottom:20px; margin-bottom: 40px;">
+          <tbody>
+            <tr>
+              <td align="center" valign="center">
+                <p
+                  style="font-size: 12px; text-decoration: none;line-height: 1; color:#909090; margin-top:0px; margin-bottom:5px; ">
+                  <%= template_string %>
+                </p>
+                
+                <p
+                  style="font-size: 12px; text-decoration: none;line-height: 1; color:#909090; margin-top:0px; margin-bottom:5px; ">
+                  <%= email_admin_info %>
+                </p>
+                
+                <!-- <p style="font-size: 12px; line-height:1; color:#909090;  margin-top:5px; margin-bottom:5px;">
+                  <a href="#" style="color: #00365a; text-decoration:none;">Contact Us</a>
+                  | <a href="#" style="color: #00365a; text-decoration:none;">Track Now</a>
+                </p> -->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+    
+</body>
+</html>

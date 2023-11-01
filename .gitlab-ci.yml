@@ -1,0 +1,26 @@
+image: node:latest
+
+cache:
+    key: ${CI_COMMIT_REF_SLUG}
+    paths:
+        - node_modules/
+
+stages:
+    - build
+    - test
+
+install_dependencies:
+    stage: build
+    only:
+      - master
+    script:   
+        - npm install
+        - npm install --unsafe-perm
+
+testing_testing:  
+    stage: test
+    image: keymetrics/pm2:6
+    only:
+      - master
+    script: 
+        - pm2 kill && pm2 start server.js

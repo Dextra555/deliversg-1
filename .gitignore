@@ -1,0 +1,47 @@
+﻿/nbproject/private/
+/node_modules/
+
+# /uploads/ads_mobile_images/*
+# /uploads/ads_web_images/*
+# /uploads/arrived_order_images/*
+# /uploads/cart_items/*
+# /uploads/delivery_type_images/*
+# /uploads/payment_images/*
+# /uploads/payment_selected_images/*
+# /uploads/pickup_order_images/*
+# /uploads/promo_images/*
+# /uploads/provider_documents/*
+# /uploads/provider_profiles/*
+# /uploads/provider_vehicle_documents/*
+# /uploads/service_type_images/*
+# /uploads/service_type_map_pin_images/*
+# /uploads/store_documents/*
+# /uploads/store_items/*
+# /uploads/store_products/*
+# /uploads/store_products_group/*
+# /uploads/store_profiles/*
+# /uploads/user_documents/*
+# /uploads/user_profiles/*
+
+# exception to the rule
+!/uploads/ads_mobile_images/.gitkeep
+!/uploads/ads_web_images/.gitkeep
+!/uploads/arrived_order_images/.gitkeep
+!/uploads/cart_items/.gitkeep
+!/uploads/delivery_type_images/.gitkeep
+!/uploads/payment_images/.gitkeep
+!/uploads/payment_selected_images/.gitkeep
+!/uploads/pickup_order_images/.gitkeep
+!/uploads/promo_images/.gitkeep
+!/uploads/provider_documents/.gitkeep
+!/uploads/provider_profiles/.gitkeep
+!/uploads/provider_vehicle_documents/.gitkeep
+!/uploads/service_type_images/.gitkeep
+!/uploads/service_type_map_pin_images/.gitkeep
+!/uploads/store_documents/.gitkeep
+!/uploads/store_items/.gitkeep
+!/uploads/store_products/.gitkeep
+!/uploads/store_products_group/.gitkeep
+!/uploads/store_profiles/.gitkeep
+!/uploads/user_documents/.gitkeep
+!/uploads/user_profiles/.gitkeep
